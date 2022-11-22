@@ -1,6 +1,6 @@
 import re
 
-
+# https://app.qa.com/lab/constructing-regexes-character-classes/constructing-regex-character-classes/?context_id=637&context_resource=lp
 pattern = r'.'
 text = 'abcdef'
 
