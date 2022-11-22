@@ -121,3 +121,16 @@ print(f"list4 = {list4}")
 print(f"data type = {type(list4)}")
 print(f"length = {len(list4)}")
 print()
+
+mylist = ['nowplaying', 'PBS', 'PBS', 'nowplaying', 'job', 'debate', 'thenandnow']
+myset = set(mylist)
+print(myset)
+
+output = set(myset)
+for x in myset:
+    output.add(x)
+print(output)
+
+mylist = list(set(mylist))
+print(f"length = {len(mylist)}")
+
